@@ -34,10 +34,9 @@ header ul {
 
 .intro {
     background-color: #1f2937;
-    padding: 50px 200px 150px;
+    padding: 50px 200px 100px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 
@@ -74,4 +73,49 @@ header ul {
     padding: 10px 30px;
     border: none;
     border-radius: 10px;
+}
+
+.middleCard{
+    padding: 25px 200px 100px;
+}
+
+.middleCard h2 {
+    text-align: center;
+}
+
+.block {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.cards div {
+    width: 125px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cards {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quoteCard {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937
+}
+
+.quoteCredit {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 50px;
 }
