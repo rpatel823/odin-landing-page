@@ -8,12 +8,14 @@ body {
     font-family: roboto, serif;/
 }
 
+
 header {
     background-color: #1f2937;
-    padding: 10px 30px;
+    padding: 10px 200px;
     display: flex;
     justify-content: space-between;
 }
+
 
 header h1{
     color: #f9faf8;
@@ -27,4 +29,49 @@ header ul {
     list-style: none;
     display: flex;
     gap: 15px;
+}
+
+
+.intro {
+    background-color: #1f2937;
+    padding: 50px 200px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.cardInfo {
+    flex-basis: 400px; 
+}
+
+
+.cardImg {
+    flex-basis: 400px;
+    background-color: rgb(165, 164, 164);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardInfo h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cardInfo p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cardInfo button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
 }
